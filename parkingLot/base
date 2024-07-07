@@ -1,0 +1,20 @@
+vehicle_type:enum - 2 wheeler, 4 wheeler
+parking_spots- 600 2-wheeler 400 4-wheeler
+
+vehicle - vehicle_no, vehicle_type
+
+entry_gate- gate_no, generate_ticket
+
+ticket- id, vehicle, entry_time, parking_spot
+
+parking_manager -
+parking_spot- fill_spot, empty_spot, spot_no
+
+exit_gate- get_gate_no, price, empty_spot
+
+
+
+
+
+
+
