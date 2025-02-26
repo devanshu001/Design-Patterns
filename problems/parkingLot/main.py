@@ -2,11 +2,10 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-from parkingLot.parkingManager import TwoWheelerParkingManager, FourWheelerParkingManager
-from parkingLot.spot import Spot
-from parkingLot.EntryGate import EntryGate
-from parkingLot.vehicle.Vehicle import Vehicle, VehicleType
-from parkingLot.ExitGate import ExitGate
+from problems.parkingLot.parkingManager import TwoWheelerParkingManager, FourWheelerParkingManager
+from problems.parkingLot.EntryGate import EntryGate
+from problems.parkingLot.vehicle.Vehicle import Vehicle, VehicleType
+from problems.parkingLot.ExitGate import ExitGate
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.

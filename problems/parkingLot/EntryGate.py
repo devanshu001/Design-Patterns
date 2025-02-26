@@ -1,6 +1,6 @@
-from parkingLot.parkingManager import ParkingManagerFactory, ParkingManager
-from parkingLot.vehicle.Vehicle import Vehicle
-from parkingLot.Ticket import Ticket
+from problems.parkingLot.parkingManager import ParkingManagerFactory, ParkingManager
+from problems.parkingLot.vehicle.Vehicle import Vehicle
+from problems.parkingLot.Ticket import Ticket
 
 
 class EntryGate:

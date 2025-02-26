@@ -1,7 +1,7 @@
-from parkingLot.spot import Spot
+from problems.parkingLot.spot import Spot
 from abc import ABC, abstractmethod
-from parkingLot.costComputation.CostCompute import TwoWheelerCostCompute, FourWheelerCostCompute
-from parkingLot.vehicle.VehicleEnum import VehicleType
+from problems.parkingLot.costComputation.CostCompute import TwoWheelerCostCompute, FourWheelerCostCompute
+from problems.parkingLot.vehicle.VehicleEnum import VehicleType
 
 
 class ParkingManager(ABC):

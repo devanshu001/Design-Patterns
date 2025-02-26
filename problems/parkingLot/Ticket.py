@@ -1,7 +1,6 @@
-from parkingLot.vehicle.Vehicle import Vehicle
-from parkingLot.spot import Spot
+from problems.parkingLot.vehicle.Vehicle import Vehicle
+from problems.parkingLot.spot import Spot
 from datetime import datetime
-from parkingLot.parkingManager import ParkingManagerFactory
 
 
 class Ticket:
